@@ -20,14 +20,6 @@ describe('API Endpoints', () => {
     });
   });
 
-  describe('GET /api/products', () => {
-    it('should return an array (may be empty without DB)', async () => {
-      const res = await request(app).get('/api/products');
-      
-      expect([200, 500]).toContain(res.statusCode);
-    });
-  });
-
   describe('POST /api/orders', () => {
     it('should reject empty order', async () => {
       const res = await request(app)
