@@ -1,6 +1,6 @@
 # MiniShop
 
-A full-stack e-commerce application built with **MongoDB Atlas, Express, React, and Node.js**. Includes Dockerized deployment, a CI pipeline with GitHub Actions, and automated testing.
+A full-stack e-commerce application built with **MongoDB Atlas, Express, React, and Node.js**. Includes Docker support, a CI pipeline with GitHub Actions, and automated testing.
 
 ## Features
 
